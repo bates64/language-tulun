@@ -1,6 +1,6 @@
 {
   "name": "language-tulun",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "tlnccuwagnf language support in Atom",
   "engines": {
     "atom": ">0.50.0",
