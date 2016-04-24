@@ -14,6 +14,14 @@
         'name': 'storage.type.function.arrow.js'
   }
   {
+    'match': '(->)'
+    'captures':
+      '0':
+        'name': 'meta.function.arrow.js'
+      '1':
+        'name': 'storage.type.function.arrow.js'
+  }
+  {
     'include': '#strings'
   }
   {
@@ -21,7 +29,7 @@
   }
   {
     # builtins!
-    'match': '(?<!\\.)\\b(print|concat|if|ifel|obj|array|not|and|or|lt|gt|eq|is|loop|use|make|change|value|from|exists)(?!\\s*:)\\b'
+    'match': '(?<!\\.)\\b(Variable|print|concat|if|ifel|obj|array|not|and|or|lt|gt|eq|is|loop|use|make|change|value|from|exists)(?!\\s*:)\\b'
     'name': 'keyword.control.js'
   }
   {
