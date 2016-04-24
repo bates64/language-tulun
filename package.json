@@ -1,0 +1,18 @@
+{
+  "name": "language-tulun",
+  "version": "0.1.2",
+  "description": "tlnccuwagnf language support in Atom",
+  "engines": {
+    "atom": ">0.50.0",
+    "node": "*"
+  },
+  "homepage": "https://atom.io/packages/language-tulun",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanalan/language-tulun.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nanalan/language-tulun"
+  },
+  "license": "MIT"
+}
